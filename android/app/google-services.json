@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "814071356686",
+    "project_id": "pets-f7603",
+    "storage_bucket": "pets-f7603.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814071356686:android:c025eef4e5b80f03578b5f",
+        "android_client_info": {
+          "package_name": "com.shop.shoppie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814071356686-3lvgslm5bd9i00v63oqfmaenorcjiklc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOB0U5beCbtybaERAt2wGQc8_wvCrZNuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814071356686-3lvgslm5bd9i00v63oqfmaenorcjiklc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "814071356686-qg102rs0sbt2oncihieji413mq26skfn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoppie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
