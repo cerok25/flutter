@@ -50,7 +50,7 @@ class ProductItem extends StatelessWidget {
             icon: const Icon(Icons.shopping_cart),
             color: Theme.of(context).colorScheme.secondary,
           ),
-          backgroundColor: Colors.black87,
+          backgroundColor: Color.fromARGB(221, 0, 0, 0),
           title: Text(
             product.title,
             textAlign: TextAlign.center,

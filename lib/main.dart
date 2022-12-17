@@ -52,12 +52,12 @@ class ShopApp extends StatelessWidget {
       ],
       child: Consumer<Auth>(
         builder: (ctx, auth, _) => MaterialApp(
-          title: 'Pet',
+          title: 'Shop',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
-              colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red)
-                  .copyWith(secondary: Colors.deepOrange),
-              primaryColor: Colors.indigo,
+              colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.green)
+                  .copyWith(secondary: Color.fromARGB(255, 106, 35, 172)),
+              primaryColor: Colors.green,
               fontFamily: 'Lato',
               pageTransitionsTheme: PageTransitionsTheme(builders: {
                 TargetPlatform.android: CustomPageTransitionBuilder(),

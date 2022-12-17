@@ -20,7 +20,7 @@ class UserProductsScreen extends StatelessWidget {
     //final productsData = Provider.of<Products>(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tu Galeria'),
+        title: const Text('Tus Productos'),
         // actions: [
         //   IconButton(
         //     onPressed: () {
@@ -35,7 +35,7 @@ class UserProductsScreen extends StatelessWidget {
           Navigator.of(context).pushNamed(EditProductsScreen.routeName);
         },
         elevation: 10,
-        label: const Text("Nueva Producto"),
+        label: const Text("Nuevo Producto"),
         icon: const Icon(
           Icons.add,
         ),

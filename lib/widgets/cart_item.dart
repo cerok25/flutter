@@ -68,7 +68,7 @@ class CartItem extends StatelessWidget {
         ),
         child: const Icon(
           Icons.delete,
-          color: Colors.white,
+          color: Color.fromARGB(255, 170, 7, 7),
           size: 40,
         ),
       ),

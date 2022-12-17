@@ -71,7 +71,7 @@ class _OrderItemState extends State<OrderItem> {
                                 '${prod.quantity}x \$${prod.price}',
                                 style: const TextStyle(
                                   fontSize: 18,
-                                  color: Colors.grey,
+                                  color: Color.fromARGB(255, 141, 9, 9),
                                 ),
                               )
                             ],

@@ -50,7 +50,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pets!'),
+        title: const Text('Shoppie'),
         actions: [
           PopupMenuButton(
             onSelected: (FilterOptions selectedValue) {
@@ -80,7 +80,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
               value: cart.itemCount.toString(),
             ),
             child: IconButton(
-              icon: const Icon(Icons.pets),
+              icon: const Icon(Icons.add_shopping_cart_sharp),
               onPressed: () {
                 Navigator.of(context).pushNamed(CartScreen.routeName);
               },

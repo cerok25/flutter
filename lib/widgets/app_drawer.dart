@@ -16,7 +16,7 @@ class AppDrawer extends StatelessWidget {
       child: Column(
         children: [
           AppBar(
-            title: const Text('HOLAAA'),
+            title: const Text('BIENVENIDO!'),
             automaticallyImplyLeading: false,
           ),
           const Divider(),
@@ -44,7 +44,7 @@ class AppDrawer extends StatelessWidget {
           const Divider(),
           ListTile(
             leading: const Icon(Icons.edit),
-            title: const Text('Tu Galeria'),
+            title: const Text('Tus Productos'),
             onTap: () {
               Navigator.of(context)
                   .pushReplacementNamed(UserProductsScreen.routeName);
